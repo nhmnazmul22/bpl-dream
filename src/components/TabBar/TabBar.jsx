@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "../Layout/Container";
 
-const TabBar = ({ title, toggle, setTab }) => {
+const TabBar = ({ title, toggle, setTab, selectedPlayersLength }) => {
   return (
     <div className="mt-20 mb-5">
       <Container>
@@ -26,7 +26,7 @@ const TabBar = ({ title, toggle, setTab }) => {
                   : "bg-transparent text-gray-600"
               }`}
             >
-              Selected (0)
+              Selected ({selectedPlayersLength})
             </button>
           </div>
         </div>

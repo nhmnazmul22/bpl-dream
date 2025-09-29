@@ -2,7 +2,7 @@ import Logo from "../../assets/logo.png";
 import CoinImg from "../../assets/coin.svg";
 import Container from "../Layout/Container";
 
-const Navbar = () => {
+const Navbar = ({ coin }) => {
   return (
     <section className="">
       <Container>
@@ -69,7 +69,7 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="ms-5 flex gap-2 items-center text-[#131313] text-sm border border-gray-100 rounded-2xl p-2">
-            <span>0</span>
+            <span>{coin}</span>
             <span>Coin</span>
             <figure className="w-5 h-5">
               <img src={CoinImg} alt="coin" className="w-full h-full" />

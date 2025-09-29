@@ -1,7 +1,14 @@
 import { Flag, User } from "lucide-react";
-import React from "react";
+import React, { useState } from "react";
 
-const PlayerCard = ({ player }) => {
+const PlayerCard = ({ player, handleSelectedPlayer }) => {
+  const [isSelected, setIsSelected] = useState(false);
+
+  const handleSelect = () => {
+    handleSelectedPlayer(player);
+    setIsSelected(true);
+  };
+
   return (
     <div className="card bg-base-100 shadow-sm  hover:shadow-xl transition-all duration-300 p-5">
       <figure className="w-full h-[300px] rounded-2xl overflow-hidden">
@@ -41,8 +48,12 @@ const PlayerCard = ({ player }) => {
           </div>
           <div className="flex justify-between items-center">
             <p className="font-semibold text-base">${player.price}</p>
-            <button className="btn bg-transparent rounded-xl border-gray-200 text-gray-600 hover:bg-[#E7FE29] hover:border-[#E7FE29] hover:text-black transition-all duration-300">
-              Choose Player
+            <button
+              onClick={handleSelect}
+              className="btn bg-transparent rounded-xl border-gray-200 text-gray-600 hover:bg-[#E7FE29] hover:border-[#E7FE29] hover:text-black transition-all duration-300"
+              disabled={isSelected && "disabled"}
+            >
+              {isSelected ? "Selected" : "Choose Player"}
             </button>
           </div>
         </div>
