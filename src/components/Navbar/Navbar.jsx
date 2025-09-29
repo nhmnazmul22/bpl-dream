@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <section className="">
       <Container>
-        <div className="navbar">
+        <div className="navbar justify-between">
           <div className="navbar-start">
             <div className="dropdown">
               <div
@@ -35,21 +35,16 @@ const Navbar = () => {
                 className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
               >
                 <li>
-                  <a>Item 1</a>
+                  <a>Home</a>
                 </li>
                 <li>
-                  <a>Parent</a>
-                  <ul className="p-2">
-                    <li>
-                      <a>Submenu 1</a>
-                    </li>
-                    <li>
-                      <a>Submenu 2</a>
-                    </li>
-                  </ul>
+                  <a>Fixture</a>
                 </li>
                 <li>
-                  <a>Item 3</a>
+                  <a>Teams</a>
+                </li>
+                <li>
+                  <a>Schedules</a>
                 </li>
               </ul>
             </div>
