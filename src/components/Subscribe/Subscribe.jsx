@@ -1,9 +1,8 @@
 import Container from "../Layout/Container";
-import BannerImg from "../../assets/banner-main.png";
 
 const Subscribe = () => {
   return (
-    <section>
+    <section className="relative z-50 bottom-[-175px] ">
       <Container>
         <div className="bg-white bg-shadow p-5 rounded-2xl mt-10  min-h-[350px] flex justify-center items-center border border-gray-200">
           <div className={`text-center space-y-4 sm:space-y-6`}>
@@ -16,7 +15,7 @@ const Subscribe = () => {
             <div className="flex max-sm:flex-col justify-between items-center gap-5 sm:h-[50px]">
               <input
                 type="text"
-                placeholder="Type here"
+                placeholder="Enter your email"
                 className="input max-sm:py-4 sm:h-full flex-1 rounded-2xl"
               />
               <button className="btn border-0 h-[50px] sm:h-full bg-[#E7FE29] inset-shadow-md rounded-2xl bg-linear-to-r from-pink-500 from-5% to-yellow-500 px-8">

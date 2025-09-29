@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "../Layout/Container";
 
-const TabBar = ({ title, toggle }) => {
+const TabBar = ({ title, toggle, setTab }) => {
   return (
     <div className="mt-20 mb-5">
       <Container>
@@ -9,6 +9,7 @@ const TabBar = ({ title, toggle }) => {
           <h3 className="text-xl sm:text-[28px] font-semibold">{title}</h3>
           <div className="">
             <button
+              onClick={() => setTab("available")}
               className={`btn  border-0 rounded-e-none rounded-s-xl ${
                 toggle === "available"
                   ? "bg-[#E7FE29]"
@@ -18,6 +19,7 @@ const TabBar = ({ title, toggle }) => {
               Available
             </button>
             <button
+              onClick={() => setTab("selected")}
               className={`btn border-0 rounded-s-none rounded-e-xl ${
                 toggle === "selected"
                   ? "bg-[#E7FE29]"
