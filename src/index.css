@@ -2,6 +2,10 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+@theme {
+  --inset-shadow-md: inset 4px 4px 20px rgba(0, 0, 0, 0.30);
+}
+
 * {
   font-family: "Sora", sans-serif;
 }

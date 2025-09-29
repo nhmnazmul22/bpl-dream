@@ -1,0 +1,134 @@
+[
+  {
+    "id": "p001",
+    "image": "https://i.ibb.co.com/5gmQkb8g/virat-kohli.jpg",
+    "name": "Virat Kohli",
+    "country": "India",
+    "player-type": "Batsman",
+    "rating": 92,
+    "bowling-type": "Right-arm medium",
+    "batting-type": "Right-hand",
+    "price": 2000000
+  },
+  {
+    "id": "p002",
+    "image": "https://i.ibb.co.com/5xJLZXMy/jasprit-bumrah.jpg",
+    "name": "Jasprit Bumrah",
+    "country": "India",
+    "player-type": "Bowler",
+    "rating": 90,
+    "bowling-type": "Right-arm fast",
+    "batting-type": "Right-hand",
+    "price": 1800000
+  },
+  {
+    "id": "p003",
+    "image": "https://i.ibb.co.com/97XzRKZ/ben-stokes.jpg",
+    "name": "Ben Stokes",
+    "country": "England",
+    "player-type": "All-rounder",
+    "rating": 85,
+    "bowling-type": "Right-arm fast-medium",
+    "batting-type": "Left-hand",
+    "price": 1900000
+  },
+  {
+    "id": "p005",
+    "image": "https://i.ibb.co.com/7txkvsDd/rashid-khan.jpg",
+    "name": "Rashid Khan",
+    "country": "Afghanistan",
+    "player-type": "Bowler",
+    "rating": 87,
+    "bowling-type": "Right-arm legbreak",
+    "batting-type": "Right-hand",
+    "price": 1700000
+  },
+  {
+    "id": "p006",
+    "image": "https://i.ibb.co.com/tMM148Xh/joe-root.jpg",
+    "name": "Joe Root",
+    "country": "England",
+    "player-type": "Batsman",
+    "rating": 91,
+    "bowling-type": "Right-arm offbreak",
+    "batting-type": "Right-hand",
+    "price": 1850000
+  },
+  {
+    "id": "p007",
+    "image": "https://i.ibb.co.com/3Y7G73Tp/kane-williamson.jpg",
+    "name": "Kane Williamson",
+    "country": "New Zealand",
+    "player-type": "Batsman",
+    "rating": 89,
+    "bowling-type": "Right-arm offbreak",
+    "batting-type": "Right-hand",
+    "price": 1750000
+  },
+  {
+    "id": "p008",
+    "image": "https://i.ibb.co.com/LXSQTRd1/kagiso-rabada.jpg",
+    "name": "Kagiso Rabada",
+    "country": "South Africa",
+    "player-type": "Bowler",
+    "rating": 86,
+    "bowling-type": "Right-arm fast",
+    "batting-type": "Right-hand",
+    "price": 1650000
+  },
+  {
+    "id": "p010",
+    "image": "https://i.ibb.co.com/pjDCH5y1/pat-cummins.jpg",
+    "name": "Pat Cummins",
+    "country": "Australia",
+    "player-type": "All-rounder",
+    "rating": 88,
+    "bowling-type": "Right-arm fast",
+    "batting-type": "Right-hand",
+    "price": 1950000
+  },
+  {
+    "id": "p011",
+    "image": "https://i.ibb.co.com/WYKNjCB/shubman-gill.jpg",
+    "name": "Shubman Gill",
+    "country": "India",
+    "player-type": "Batsman",
+    "rating": 90,
+    "bowling-type": "N/A",
+    "batting-type": "Right-hand",
+    "price": 1700000
+  },
+  {
+    "id": "p013",
+    "image": "https://i.ibb.co.com/rK9tBw7Q/najmul-hossain-shanto.jpg",
+    "name": "Najmul Hossain Shanto",
+    "country": "Bangladesh",
+    "player-type": "Batsman",
+    "rating": 85,
+    "bowling-type": "Right-arm offbreak",
+    "batting-type": "Left-hand",
+    "price": 1500000
+  },
+  {
+    "id": "p014",
+    "image": "https://i.ibb.co.com/yBySSgD7/mehidy-hasan-miraz.jpg",
+    "name": "Mehidy Hasan Miraz",
+    "country": "Bangladesh",
+    "player-type": "All-rounder",
+    "rating": 87,
+    "bowling-type": "Right-arm offbreak",
+    "batting-type": "Right-hand",
+    "price": 1600000
+  },
+  {
+    "id": "p015",
+    "image": "https://i.ibb.co.com/jPVtZB7W/mustafizur-rahman.webp",
+    "name": "Mustafizur Rahman",
+    "country": "Bangladesh",
+    "player-type": "Bowler",
+    "rating": 86,
+    "bowling-type": "Left-arm fast-medium",
+    "batting-type": "Left-hand",
+    "price": 1550000
+  }
+]
